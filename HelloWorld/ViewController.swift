@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var HelloLabel: UILabel!
     @IBAction func GreetButton(_ sender: Any) {
-        HelloLabel.text = "Hello " + TextField.text
+        HelloLabel.text = "Hello " + TextField.text!
     }
     @IBOutlet weak var TextField: UITextField!
     override func viewDidLoad() {
